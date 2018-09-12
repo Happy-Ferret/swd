@@ -85,7 +85,7 @@ def main():
     )
 
     args = parser.parse_args()
-    text = ''.join(args.text) if args.s else open(args.text[0])
+    text = ' '.join(args.text) if args.s else open(args.text[0])
 
     print(calculate(args.first_word, args.second_word, text))
 
