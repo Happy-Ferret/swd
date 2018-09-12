@@ -11,7 +11,7 @@ import swd
     2, 'motivation', 'development',
     (
         'We do value and reward motivation in our development team. '
-        'Development is a key skill for a DevOp.',
+        'Development is a key skill for a DevOp.'
     ),
 ), (
     4, 'first', 'second',
@@ -26,11 +26,20 @@ import swd
     1, 'test', 'this',
     'Now, having wrong test and right test, take this, not this.',
 ), (
+    1, 'first', 'closer',
+    'This first is closer and that first is not closer',
+), (
+    1, 'second', 'closer',
+    'This second is not closer, but that second *is* closer',
+), (
     2, 'sentence', 'punct',
     'This will test matching at the end of sentence. Ie. with punct.',
 ), (
     1, 'Perhaps', 'swap',
     'Can we swap args? Perhaps.',
+), (
+    1, 'Perhaps', 'swap',
+    'Can we swap swap args? Perhaps.',
 )])
 def test_calculate_str(expected, first_word, second_word, text):
     '''Checks that calculate provides correct answers.'''
