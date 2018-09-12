@@ -41,11 +41,11 @@ Out[2]: 4
 Using file (default):
 
 ```bash
-swd [-f] first second textfile.txt
+swd first second textfile.txt
 ```
 
 Using argument:
 
 ```bash
-swd -a first second My first example for swd. With second sentence, to make sense.
+swd -s first second My first example for swd. With second sentence, to make sense.
 ```
